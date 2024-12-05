@@ -8,3 +8,5 @@ def sentiment_view(request):
             sentiment = analyze_sentiment(text)
             return render(request, 'sentiment/result.html', {'sentiment': sentiment, 'text': text})
     return render(request, 'sentiment/index.html')
+#shreyas
+#2210080041
